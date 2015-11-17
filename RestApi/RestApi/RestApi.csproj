@@ -185,9 +185,8 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Models\ApplicationContext.cs" />
     <Compile Include="Models\Person.cs" />
-    <Compile Include="Models\RestApiContext.cs" />
+    <Compile Include="Models\ApplicationContext.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

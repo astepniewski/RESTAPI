@@ -8,6 +8,11 @@ namespace RestApi.Models
 {
     public class ApplicationContext : DbContext
     {
+  
+        public ApplicationContext() : base("name=RestApiContext")
+        {
+        }
+
         public DbSet<Person> People { get; set; }
     }
 }
