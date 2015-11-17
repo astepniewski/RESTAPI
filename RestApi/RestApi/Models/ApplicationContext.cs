@@ -6,7 +6,7 @@ using System.Web;
 
 namespace RestApi.Models
 {
-    public class Context : DbContext
+    public class ApplicationContext : DbContext
     {
         public DbSet<Person> People { get; set; }
     }
