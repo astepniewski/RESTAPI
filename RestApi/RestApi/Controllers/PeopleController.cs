@@ -9,7 +9,7 @@ using System.Web.Http;
 
 namespace RestApi.Controllers
 {
-    public class PersonController : ApiController
+    public class PeopleController : ApiController
     {
         private ApplicationContext db = new ApplicationContext();
 
